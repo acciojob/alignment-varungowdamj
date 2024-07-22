@@ -5,37 +5,47 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>HTML Assignment 3</title>
     <style>
-        table {
+        /* General styling for tables */
+        table.middle {
             border-collapse: collapse;
             border: 1px solid black;
             margin: 20px auto;
         }
+
+        /* Table cell styling */
         th, td {
             border: 1px solid black;
             padding: 1px;
         }
-        .middle {
-            border-collapse: collapse;
-            border: 1px solid black;
-            margin: 20px auto;
-        }
+
+        /* Text alignment classes */
         .center {
             text-align: center;
         }
+
         .right {
             text-align: right;
         }
+
+        /* Background color classes */
         .green {
             background-color: green;
             color: white;
         }
+
         .blue {
             background-color: blue;
             color: white;
         }
+
+        /* Center-align heading */
+        h1 {
+            text-align: center;
+        }
     </style>
 </head>
 <body>
+    <!-- Heading -->
     <h1>HTML Assignment #3</h1>
 
     <!-- Table 1 -->
@@ -46,14 +56,14 @@
             <td id="t13" class="right">Cell 3</td>
         </tr>
         <tr>
-            <td id="t21">Middle Cell 1</td>
-            <td id="t22">Middle Cell 2</td>
-            <td id="t23">Middle Cell 3</td>
+            <td id="t21">Cell 4</td>
+            <td id="t22">Cell 5</td>
+            <td id="t23">Cell 6</td>
         </tr>
         <tr>
-            <td id="t31">Cell 4</td>
-            <td id="t32">Cell 5</td>
-            <td id="t33">Cell 6</td>
+            <td id="t31">Cell 7</td>
+            <td id="t32">Cell 8</td>
+            <td id="t33">Cell 9</td>
         </tr>
     </table>
 
@@ -62,6 +72,7 @@
         <tr>
             <td id="t21" colspan="6">Header Cell (colspan 6)</td>
         </tr>
+        <!-- Add additional rows as needed to reach 6 rows -->
         <tr>
             <td>Cell</td>
             <td>Cell</td>
@@ -70,22 +81,53 @@
             <td>Cell</td>
             <td>Cell</td>
         </tr>
-        <!-- Add additional rows as needed -->
+        <tr>
+            <td>Cell</td>
+            <td>Cell</td>
+            <td>Cell</td>
+            <td>Cell</td>
+            <td>Cell</td>
+            <td>Cell</td>
+        </tr>
+        <tr>
+            <td>Cell</td>
+            <td>Cell</td>
+            <td>Cell</td>
+            <td>Cell</td>
+            <td>Cell</td>
+            <td>Cell</td>
+        </tr>
+        <tr>
+            <td>Cell</td>
+            <td>Cell</td>
+            <td>Cell</td>
+            <td>Cell</td>
+            <td>Cell</td>
+            <td>Cell</td>
+        </tr>
+        <tr>
+            <td>Cell</td>
+            <td>Cell</td>
+            <td>Cell</td>
+            <td>Cell</td>
+            <td>Cell</td>
+            <td>Cell</td>
+        </tr>
     </table>
 
     <!-- Table 3 -->
     <table class="middle" id="table-3">
         <tr class="green">
-            <td>Header Row 1</td>
+            <td>Header Row (Green)</td>
         </tr>
         <tr>
-            <td id="t-image" class="image-cell">
+            <td id="t-image">
                 <img src="https://via.placeholder.com/150" alt="Sample Image">
             </td>
         </tr>
-        <!-- Additional rows -->
+        <!-- Add additional rows if needed -->
         <tr class="blue">
-            <td>Footer Row 2</td>
+            <td>Footer Row (Blue)</td>
         </tr>
     </table>
 </body>
